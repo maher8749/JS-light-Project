@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    just practice
+
+    <script>
+    //    function getRanNum(min, max){
+    //        return Math.floor(Math.random() * (max - min + 1) ) + min;
+    //    }
+       
+
+
+    //    console.log(getRanNum(5, 7));
+    //   console.log(getRndInteger(3, 89));
+
+
+
+//       function getRndInteger(min, max) {
+//   return Math.floor(Math.random() * (max - min) ) + min;
+// }
+
+
+
+    //  const student =["maher", "khaled", "am", "x"]
+    //  console.log(student.sort())
+
+
+    // const roll = [3,5,67,74,40,0]
+    // console.log(roll.sort(function(a,b){
+    //      return b-a;
+    // }))
+     
+
+    // function isLeapYear(year){
+    //     if ((year % 400 === 0) || ((year % 4 === 0) && (year % 100 !== 0))){
+    //           console.log(`${year} is a leap Year!`)
+    //     } else{
+    //         console.log(`${year} is not a leap year!`)
+    //     }
+    // }
+    // isLeapYear(2026);
+   
+
+    // const vowels = ['a','e','i','o','u','A','E','I','O','U']
+    // function isVowel(sentence){
+    //     let count = 0;
+    //     const letter = Array.from(sentence);
+    //     letter.forEach(function (value){
+    //         if (vowels.includes(value)){
+    //             count ++;
+    //         }
+    //     })
+
+    //     return count;
+    // }
+    // console.log(isVowel('I am  Maher O'));
+
+    
+
+    // const random = ['maher', 'karim', 'is']
+    // function isInclude(sentence){
+    //      let count = 0;
+    //      const letter = Array.from(sentence);
+    //      letter.forEach(function(value){
+    //          if(random.includes(value)){
+    //              count ++;
+    //          }
+    //      })
+    //      return count;
+    // }
+    // console.log(isInclude('maher is not karim'))
+
+
+
+    const number = [2,46,78,8,9,8,0,3,6,46,6,6,2]
+    const duplicates = number.filter(function (value,index,array){
+        return array.indexOf(value) === index;
+    })
+
+    console.log(duplicates)
+    </script>
+</body>
+</html>

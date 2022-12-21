@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(14, 0, 0);
+}
+#time{
+    display: flex;
+    gap: 30px;
+    /* flex-basis: 4px;
+    flex-wrap: wrap; */
+}
+#time .circle{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time .circle svg{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+#time .circle svg circle{
+    height: 100%;
+    width: 100%;
+    fill: transparent;
+    stroke: red;
+    stroke-width: 3;
+}
+#time div{
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+#time .ap{
+    position: relative;
+    transform: translateX(-35px);
+}
